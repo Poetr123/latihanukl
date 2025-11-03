@@ -7,7 +7,7 @@ public class Latihanukl1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-       
+        
         System.out.print("Masukkan berat paket (kg): ");
         double berat = input.nextDouble();
 
@@ -34,6 +34,7 @@ public class Latihanukl1 {
             biayaPerKg = 6000;
         }
 
+        
         double biayaBerat = berat * biayaPerKg;
 
         
@@ -46,14 +47,14 @@ public class Latihanukl1 {
         double totalBiaya = biayaBerat + biayaVolume;
 
         
-        System.out.println("\n=== Rincian Biaya Pengiriman ===");
-        System.out.println("Berat paket     : " + berat + " kg");
-        System.out.println("Jarak tempuh    : " + jarak + " km");
-        System.out.println("Volume paket    : " + volume + " cm³");
-        System.out.println("Biaya per kg    : Rp " + biayaPerKg);
-        System.out.println("Biaya berat     : Rp " + biayaBerat);
-        System.out.println("Biaya volume    : Rp " + biayaVolume);
-        System.out.println("---------------------------------");
-        System.out.println("Total biaya     : Rp " + totalBiaya);
+        System.out.println("\n===== RINCIAN BIAYA PENGIRIMAN =====");
+        System.out.println("Berat paket       : " + berat + " kg");
+        System.out.println("Jarak tempuh      : " + jarak + " km");
+        System.out.println("Volume paket      : " + volume + " cm^3");
+        System.out.println("Biaya per kg      : Rp " + biayaPerKg);
+        System.out.println("Biaya berat       : Rp " + biayaBerat);
+        System.out.println("Biaya volume      : Rp " + biayaVolume);
+        System.out.println("-----------------------------------");
+        System.out.println("Total biaya kirim : Rp " + totalBiaya);
     }
 }
